@@ -1,0 +1,59 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+
+ nav li{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    width:18%;
+    margin-right: 15px;
+ }
+
+ main img {
+   width: 250px; /* Set width to 250px */
+   border: 2px solid black; /* Add a border */
+   box-sizing: border-box; /* Include border in the width */
+}
+
+.grid-container {
+   width: 90%;
+   margin: 0 auto; /* Center the grid */
+   border: 2px solid black; /* Add border */
+   display: flex; /* Enable flexbox */
+   justify-content: space-between; /* Space columns evenly */
+}
+
+/* Style each column within the grid */
+.grid-container > div {
+   width: 250px; /* Each column takes 250px width */
+   padding: 10px; /* Add some padding */
+   box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.gallery img:last-child {
+   width: 100%; /* Span all columns */
+}
+
+ p{
+    line-height:2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkslategray;
+    background-color: bisque;
+    margin-bottom: 10px;
+    text-align: center;
+ }
